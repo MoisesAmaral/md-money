@@ -68,7 +68,7 @@ export const RadialBox = styled.button<RadialBoxProps>`
         border-radius: 0.25rem;
 
         background: ${props => props.isActive
-         ? transparentize(0.9, colors[props.actveColor])
+         ? transparentize(0.8, colors[props.actveColor])
           : 'transparent'};
 
         display: flex;
